@@ -1,0 +1,67 @@
+.image-container {
+    position: relative;
+    width: 1400px;
+    height: 1600px;
+}
+img {
+    width: 1280px;
+    height: 1600px;            
+}
+h1 {
+    position: absolute;
+    top: 10%; /* Ajusta este valor para cambiar la posición vertical del texto */
+    left: 50%; /* Ajusta este valor para centrar el texto horizontalmente */
+    transform: translateX(-50%);
+    color: rgb(178, 223, 19); /* Cambia el color del texto si es necesario */
+    z-index: 1; /* Asegura que el texto esté por encima de la imagen */
+    margin-top: 554px;
+}
+#titulo {  /*esto permite que el texto quede en la imagen */
+    position: absolute;/* Posiciona el título de forma absoluta con respecto al contenedor */
+    top: 60%; /* Ajusta este valor para cambiar la posición vertical del texto */
+    left: 50%; /* Ajusta este valor para cambiar la posición izquierda a derecha del texto */
+    transform: translateX(-50%); /* Centra el título horizontalmente */
+    color: rgb(224, 139, 12); /* Cambia el color del texto si es necesario */
+    z-index: 1; /* Asegura que el texto esté por encima de la imagen */
+}
+
+h2 {
+    color:rgb(232, 232, 236)
+}
+h3 {
+    color: blueviolet;
+}
+.posicion { /* Contenedor para los elementos de radio y sus etiquetas */
+    display: flex;  /* Usa flexbox para el diseño, Define la dirección principal en la que se organizan los elementos secundarios.*/
+    flex-direction: column;  /* Alinea los elementos en una columna */
+    /* Aqui se diseña una caja contenedora */
+    border: 2px solid #fbfbfd;  /* Define un borde sólido de 2 píxeles */
+    padding: 40px;           /* Añade un espacio interno alrededor del contenido */
+    margin: 90px;            /* Añade un margen alrededor de la caja */
+    border-radius: 400px;     /* Hace que los bordes sean redondeados */
+    width: 200px;               /* Establece un ancho fijo para la caja */
+    height: 288px; /* Aumenta la altura para acomodar el contenido */
+    margin-top: 554px; /* Ajusta este valor para bajar o subir la posición de la caja */
+    margin-left: 127px;        /* Ajusta este valor para mover la caja hacia la izquierda */
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido horizontalmente */
+    justify-content: center; /* Centra el contenido verticalmente */
+    width: 210px;               /* Establece un ancho fijo para la caja */
+    height: 250px;  
+}
+.seleccionar {
+    width: 100px;
+    height: 40px;
+    background: rgb(22, 105, 231);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;  
+}
+
+       
+
+       
