@@ -1,11 +1,11 @@
 .image-container {
     position: relative;
-    width: 1400px;
-    height: 1600px;
+    width: 1318px;
+    height: 1800px;
 }
 img {
-    width: 1280px;
-    height: 1600px;            
+    width: 1318px;
+    height: 1800px;            
 }
 h1 {
     position: absolute;
@@ -39,10 +39,10 @@ h3 {
     padding: 40px;           /* Añade un espacio interno alrededor del contenido */
     margin: 90px;            /* Añade un margen alrededor de la caja */
     border-radius: 400px;     /* Hace que los bordes sean redondeados */
-    width: 200px;               /* Establece un ancho fijo para la caja */
-    height: 288px; /* Aumenta la altura para acomodar el contenido */
-    margin-top: 554px; /* Ajusta este valor para bajar o subir la posición de la caja */
-    margin-left: 127px;        /* Ajusta este valor para mover la caja hacia la izquierda */
+    width: 210px;               /* Establece un ancho fijo para la caja */
+    height: 330px; /* Aumenta la altura para acomodar el contenido */
+    margin-top: 670px; /* Ajusta este valor para bajar o subir la posición de la caja */
+    margin-left: 160px;        /* Ajusta este valor para mover la caja hacia la izquierda */
 }
 
 .texto {
@@ -52,6 +52,7 @@ h3 {
     justify-content: center; /* Centra el contenido verticalmente */
     width: 210px;               /* Establece un ancho fijo para la caja */
     height: 250px;  
+    margin-top: 60px;   /* sube o baja la posicion del texto */
 }
 .seleccionar {
     width: 100px;
